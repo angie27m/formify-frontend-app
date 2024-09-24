@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "watch": true,
             "outputPath": "dist/formify-frontend-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -32,6 +33,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/magenta-violet.css",
               "src/styles.sass"
             ],
             "scripts": [],
@@ -96,6 +98,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/magenta-violet.css",
               "src/styles.sass"
             ],
             "scripts": []
